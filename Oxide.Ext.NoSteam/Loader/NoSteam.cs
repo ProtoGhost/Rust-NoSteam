@@ -19,9 +19,7 @@ namespace Oxide.Ext.NoSteam.Loader
 
         public static void InitPlugin()
         {
-            Output("[NoSteam] Author: Kaidoz" +
-                "\n Discord:discord.gg/Tn3kzbE" +
-                "\n Github: github.com/Kaidoz/Rust-NoSteam");
+            Output("[NoSteam] Author: son of bitch Kaidoz");
 
             Init();
             try

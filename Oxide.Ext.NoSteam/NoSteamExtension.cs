@@ -5,12 +5,9 @@
 using Oxide.Core;
 using Oxide.Core.Extensions;
 using Oxide.Ext.NoSteam.Utils;
-using Oxide.Plugins;
 using System;
 using System.IO;
 using System.Net;
-using System.Reflection;
-using VLB;
 using static ConsoleSystem;
 
 namespace Oxide.Ext.NoSteam
@@ -81,7 +78,7 @@ namespace Oxide.Ext.NoSteam
 
         private string GetVersion(WebClient webClient)
         {
-            string urlVersion = "https://raw.githubusercontent.com/Kaidoz/Rust-NoSteam/master/Build/version.txt";
+            string urlVersion = "https://raw.githubusercontent.com/ProtoGhost/Rust-NoSteam/master/Build/version.txt";
 
             string version = webClient.DownloadString(urlVersion);
 
@@ -90,7 +87,7 @@ namespace Oxide.Ext.NoSteam
 
         private void DownloadPlugin(WebClient webClient)
         {
-            string urlDll = "https://raw.githubusercontent.com/Kaidoz/Rust-NoSteam/master/Build/Oxide.Ext.NoSteam.dll";
+            string urlDll = "https://raw.githubusercontent.com/ProtoGhost/Rust-NoSteam/master/Build/Oxide.Ext.NoSteam.dll";
 
             byte[] data = webClient.DownloadData(urlDll);
 

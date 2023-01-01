@@ -34,7 +34,6 @@
   <ItemGroup>
     <Compile Include="NoSteamHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RustModPlugin.cs" />
     <Compile Include="SteamChecksMod.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -149,9 +148,8 @@
       <HintPath>..\..\..\..\..\Games\Rust\Server\rustds\RustDedicated_Data\Managed\Rust.World.dll</HintPath>
     </Reference>
     <Reference Include="System" />
-    <Reference Include="System.Buffers, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\Games\RustServer\rustds\RustDedicated_Data\Managed\System.Buffers.dll</HintPath>
+    <Reference Include="System.Buffers">
+      <HintPath>..\..\..\..\..\Games\Rust\Server\rustds\RustDedicated_Data\Managed\System.Buffers.dll</HintPath>
     </Reference>
     <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
@@ -161,7 +159,9 @@
     <Reference Include="UnityEngine.CoreModule">
       <HintPath>..\..\..\..\..\Games\Rust\Server\rustds\RustDedicated_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" />
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>..\..\..\..\..\Games\Rust\Server\rustds\RustDedicated_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.TextCoreModule">
       <HintPath>..\..\..\..\..\Games\Rust\Server\rustds\RustDedicated_Data\Managed\UnityEngine.TextCoreModule.dll</HintPath>
     </Reference>

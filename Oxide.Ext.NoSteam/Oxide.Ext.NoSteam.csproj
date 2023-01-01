@@ -104,6 +104,9 @@
     <Reference Include="Oxide.Unity">
       <HintPath>..\..\..\..\..\..\Games\Rust\Server\rustds\RustDedicated_Data\Managed\Oxide.Unity.dll</HintPath>
     </Reference>
+    <Reference Include="Rust.Platform.Common">
+      <HintPath>..\..\..\..\..\Games\Rust\Server\rustds\RustDedicated_Data\Managed\Rust.Platform.Common.dll</HintPath>
+    </Reference>
     <Reference Include="Rust.Platform.Steam">
       <HintPath>..\..\..\..\..\..\Games\Rust\Server\rustds\RustDedicated_Data\Managed\Rust.Platform.Steam.dll</HintPath>
     </Reference>
